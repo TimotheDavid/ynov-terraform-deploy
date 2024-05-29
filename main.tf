@@ -16,7 +16,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "ynov-tr-group"
+  name     = "ynov-storage-group"
   location = "West Europe"
 }
 
